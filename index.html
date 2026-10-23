@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetica – En plats för poesi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+   <header class=" site-header">
+    <a class="logo" href="#"> Poetica </a>
+    <p> Ord för oss samman </p>
+   </header>
+<main>
+    <section class="hero"
+    <p class="eyebrow" > EN PLATS FÖR DINA ORD </p>
+    <h1> Alla har en dikt inom sig. </h1>
+   <p class="intro">
+    Dela dina tankar, dina känslor och dina ord. Läs det andra har skrivit och hitta något som känns relaterbart.
+   </p>
+   <a class="button-link" href="#write-poem"> Dela din dikt</a>
+</section>  
+<section class="write-section" id="write-poem">
+    <h2> Dela dina ord</h2>
+    <p class="section-description">
+        Skriv något som betyder något för dig. 
+    </p>
+
+<form id="poem-form">
+    <label for="author"> Ditt namn eller pseudonym</label>
+    <input 
+    type="text"
+    id="author"
+    placeholder="exempel:en drömmare"
+    required
+    >
+<label for="poem-title"> Diktens titel </label>
+<input
+type="text"
+id="poem-title"
+placeholder="Vad heter din dikt"
+required
+>
+
+<label for="poem-text"> Din dikt</label>
+<textarea
+id="poem-text"
+rows="5"
+placeholder="Skriv från hjärtat..."
+required
+></textarea>
+<button type="submit"> Publicera dikt</button>
+</form>
+<p id="form-message" aria-live="polite"></p>
+</section>
+<section class="poems-section">
+    <h2> Ord från andra </h2>
+    <p class="section-description">
+        Små delar av någon annans värld
+    </p>
+    <div id="poem-list" class="poem-list">
+        <article class="poem-card">
+            <p class="poem-label"> EN TANKE </p>
+            <h3> Att hitta hem</h3>
+            <p class="poem-content> Ibland är hemmet inte en plats, utan en känsla av att få vara sig själv.</p>
+            <p class="poem-author"> - En främling </p>
+        </article>
+        
+        <article class="poem-card">
+            <p class="poem-label">LÄNGTAN</p>
+            <h3>En annan himmel</h3>
+            <p class="poem-content">Jag samlar på drömmar
+och platser jag ännu inte sett.
+Världen väntar någonstans,
+och jag är inte färdig än.</p>
+<p class="poem-author"> - En sökande själ </p>
+         </article>
+      </div>
+   </section>
+</main>
+<footer class="site-footer">
+    <p> Poetica - Ord som betyder något </p>
+</footer>
+</body>
+</html>
+
+    
